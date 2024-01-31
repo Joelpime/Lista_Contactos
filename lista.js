@@ -27,7 +27,8 @@ function crearContacto(identificacion, nombre, apellidos, telefono, ciudad) {
     listaContactos.push(nuevoContacto);
 
 }
-
 crearContacto(98734, "Emma Isabella", "Pinzón", 3434502, "Bogotá");
-
+crearContacto(98734, "Danna Manuela", "Pinzón", 54637, "Bogotá");
 console.log(listaContactos);
+
+console.log(listaContactos.pop());
